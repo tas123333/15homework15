@@ -5,6 +5,8 @@ y2 = int(input("y2: "))
 if (1 <= x1 <= 8) and (1 <= x2 <= 8) and (1 <= y1 <= 8) and (1 <= y2 <= 8):
     if (x1 + x2 + y1 + y2) % 2 == 0:
         print("YES!")
+    elif (x1 + x2 + y1 + y2) % 2 == 1:
+        print("NO!")
 
 else:
      print("enter number from range(1, 8)!")
